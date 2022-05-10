@@ -7,6 +7,5 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
-sudo systemctl status docker
 sudo docker pull golang
 sudo docker run golang
